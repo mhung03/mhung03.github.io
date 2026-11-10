@@ -1,0 +1,29 @@
+theme = "blowfish"
+# baseURL được GitHub Actions tự điền khi deploy; giá trị dưới chỉ dùng khi chạy thử trên máy
+baseURL = "https://USERNAME.github.io/"
+defaultContentLanguage = "vi"
+enableRobotsTXT = true
+summaryLength = 30
+buildDrafts = false
+buildFuture = false
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# JSON cần thiết cho ô tìm kiếm
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

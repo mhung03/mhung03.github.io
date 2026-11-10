@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" width="720" height="220" role="img" aria-label="Sơ đồ lab">
+  <rect width="720" height="220" rx="16" fill="#0f172a"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    <rect x="40" y="75" width="150" height="70" rx="12" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="115" y="105">PC trong LAN</text><text x="115" y="127" fill="#94a3b8">192.168.10.10</text>
+    <rect x="285" y="75" width="150" height="70" rx="12" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+    <text x="360" y="105">FortiGate</text><text x="360" y="127" fill="#94a3b8">port1 / port2</text>
+    <rect x="530" y="75" width="150" height="70" rx="12" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="605" y="105">Internet</text><text x="605" y="127" fill="#94a3b8">WAN</text>
+    <path d="M190 110 H285 M435 110 H530" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4"/>
+  </g>
+</svg>

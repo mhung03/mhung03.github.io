@@ -1,0 +1,21 @@
+disabled = false
+locale = "vi"
+label = "Tiếng Việt"
+weight = 1
+title = "mhung03"
+
+[params]
+  displayName = "VI"
+  isoCode = "vi"
+  rtl = false
+  dateFormat = "02/01/2006"
+  description = "Ghi chú lab"
+
+[params.author]
+  name = "Mạnh Hùng"
+  headline = "Lab notes"
+  bio = "Blog."
+  links = [
+    { github = "https://github.com/USERNAME" },
+    { linkedin = "https://linkedin.com/in/USERNAME" },
+  ]

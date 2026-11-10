@@ -1,0 +1,51 @@
+# Mỗi mục menu trỏ tới một thư mục trong content/ bằng pageRef.
+# "parent" = tên (name) của mục cha để tạo menu xổ xuống.
+
+[[main]]
+  name = "Firewall"
+  pageRef = "firewall"
+  weight = 10
+
+[[main]]
+  name = "Fortinet"
+  parent = "Firewall"
+  pageRef = "firewall/fortinet"
+  weight = 11
+
+[[main]]
+  name = "Palo Alto"
+  parent = "Firewall"
+  pageRef = "firewall/palo-alto"
+  weight = 12
+
+[[main]]
+  name = "Network"
+  pageRef = "network"
+  weight = 20
+
+[[main]]
+  name = "CCNA"
+  parent = "Network"
+  pageRef = "network/ccna"
+  weight = 21
+
+[[main]]
+  name = "Vulnhub"
+  pageRef = "vulnhub"
+  weight = 30
+
+[[main]]
+  name = "Giới thiệu"
+  pageRef = "about"
+  weight = 40
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/USERNAME"
+  weight = 100
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
