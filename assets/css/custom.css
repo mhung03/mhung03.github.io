@@ -91,6 +91,8 @@ html.dark body::after {
   border-radius: 6px;
 }
 
+/* Chỉ tùy chỉnh navigation trên desktop; mobile dùng menu gốc Blowfish. */
+@media (min-width: 1024px) {
 /* ---------- 2. THANH MENU (kính mờ, mọi trang) ---------- */
 header .fixed > .relative {
   margin-top: 0.75rem;
@@ -136,6 +138,7 @@ header .nested-menu > div > a > span:last-child {
 header .nested-menu > div > a > span:last-child svg {
   width: 0.9rem;
   height: 0.9rem;
+}
 }
 
 /* ---------- 3. TRANG CHỦ: HERO VIDEO ---------- */
@@ -264,6 +267,8 @@ header .nested-menu > div > a > span:last-child svg {
   50% { transform: translateY(8px); }
 }
 
+/* Chỉ tùy chỉnh navigation trên desktop; mobile dùng menu gốc Blowfish. */
+@media (min-width: 1024px) {
 /* Menu trên hero: nổi trên video, phủ từ mép trên (giữ như bạn đã chỉnh) */
 body:has(.hero-video) > header {
   position: absolute;
@@ -336,6 +341,7 @@ body:has(.hero-video) header nav a[href$="/about/"] {
 body:has(.hero-video) header nav a[href$="/about/"]:hover {
   background: #38bdf8;
   color: #0b1220 !important;
+}
 }
 
 /* ---------- 4. TRANG CHỦ: CHỦ ĐỀ + BÀI MỚI ---------- */
@@ -862,4 +868,40 @@ html.dark .highlight-wrapper pre.chroma {
 ::selection {
     background-color: #179a6c;
     color: #ffffff;
+}
+/* ===== MOBILE HERO FIX ===== */
+@media (max-width: 767px) {
+
+    .hero-video {
+        height: calc(100svh - 64px);
+        min-height: 0;
+    }
+
+    .hero-content {
+        transform: translateY(-65px);
+        padding: 0 20px;
+    }
+
+    .hero-eyebrow {
+        font-size: 0.65rem;
+        letter-spacing: 0.12em;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2rem, 9vw, 2.7rem);
+        line-height: 1.15;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-actions {
+        gap: 0.7rem;
+    }
 }
