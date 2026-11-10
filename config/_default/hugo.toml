@@ -1,6 +1,6 @@
 theme = "blowfish"
 # baseURL được GitHub Actions tự điền khi deploy; giá trị dưới chỉ dùng khi chạy thử trên máy
-baseURL = "https://USERNAME.github.io/"
+baseURL = "https://mhung03.github.io/"
 defaultContentLanguage = "vi"
 enableRobotsTXT = true
 summaryLength = 30
