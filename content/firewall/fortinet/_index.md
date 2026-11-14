@@ -1,7 +1,7 @@
 ---
 title: "Fortinet"
 description: "FortiGate: policy, VPN, NAT, log và xử lý sự cố."
-summary: "FortiGate: policy, VPN, NAT, log và xử lý sự cố."
+summary: "Global Leader of Cybersecurity Solutions and Services"
 ---
 
 <div class="article-intro">
