@@ -1,7 +1,7 @@
 ---
 title: "Palo Alto"
 description: "PAN-OS: zone, security policy, App-ID và Threat Prevention."
-summary: "Palo Alto Network Security AI-Powered"
+summary: "Built for Zero Trust and powered by AI"
 ---
 
 <div class="article-intro">
